@@ -1,0 +1,29 @@
+# Práctica de Impresión 3D: Componentes Mecánicos (FDM)
+
+Este repositorio contiene la documentación, archivos de configuración de laminado y modelos de prueba correspondientes a la práctica de fabricación aditiva mediante **Modelado por Deposición Fundida (FDM)** realizada en agosto de 2026.
+
+## 📌 Objetivos del Proyecto
+* Configurar y calibrar una impresora 3D FDM para la fabricación de piezas funcionales.
+* Optimizar parámetros en el *slicer* para equilibrar tiempo de impresión, consumo de material y resistencia mecánica.
+* Evaluar la precisión dimensional de la pieza producida frente al modelo CAD original.
+
+## ⚙️ Especificaciones Técnicas
+
+| Componente / Parámetro | Detalle |
+| :--- | :--- |
+| **Impresora 3D** | Creality Ender 3 V2 |
+| **Material** | PLA 1.75 mm (Gris Titán) |
+| **Temperatura Nozzle / Cama** | 205 °C / 60 °C |
+| **Altura de Capa** | 0.2 mm |
+| **Relleno (Infill)** | 20% (Patrón Giroide) |
+| **Velocidad de Impresión** | 50 mm/s |
+| **Adhesión a la Cama** | Brim (5 mm) |
+
+## 📊 Resultados de Precisión
+* **Desviación dimensional promedio:** $\pm 0.24\%$
+* **Calidad superficial:** Cohesión óptima de capas, sin presencia de *stringing* o *under-extrusion*.
+
+## 📂 Estructura del Repositorio
+* `/stl/` -> Contiene el modelo 3D original en formato STL.
+* `/gcode/` -> Archivos listos para enviar a la impresora 3D.
+* `PROCESO_Y_RESULTADOS.md` -> Reporte detallado del procedimiento y control de calidad.
