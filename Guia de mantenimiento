@@ -1,0 +1,28 @@
+# Guía de Mantenimiento y Solución de Problemas
+
+## 1. Mantenimiento Preventivo de la Impresora (Creality Ender 3 V2)
+
+### Antes de cada impresión
+* **Limpieza de cama:** Limpiar la superficie de cristal con alcohol isopropílico al 99% y un paño de microfibra para remover grasa de manos y restos de adhesivo.
+* **Inspección de boquilla:** Retirar restos de filamento quemado o extruido en frío en la punta del *nozzle*.
+
+### Mantenimiento periódico (cada 50 horas de uso)
+* **Tensión de correas:** Verificar que las correas de los ejes X e Y tengan una tensión adecuada (no demasiado flojas ni excesivamente tirantes).
+* **Lubricación:** Aplicar grasa de litio fina en el husillo roscado del eje Z.
+* **Ajuste de excéntricas:** Revisar que las ruedas de policarbonato sobre los perfiles de aluminio no tengan juego ni demasiado desgaste.
+
+---
+
+## 2. Solución de Problemas Frecuentes (Troubleshooting)
+
+### Warping (Desprendimiento de esquinas)
+* **Causa:** Enfriamiento desigual de las capas inferiores o falta de adherencia.
+* **Solución aplicada:** Incrementar la temperatura de la cama a 60 °C, aplicar laca adhesiva y utilizar una borda (*brim*) de 5 mm en el *slicer*.
+
+### Stringing (Hilos entre desplazamientos)
+* **Causa:** Temperatura demasiado alta o retractor mal configurado.
+* **Solución aplicada:** Mantener distancia de retracción en 5.0 mm y velocidad a 45 mm/s para filamento PLA a 205 °C.
+
+### Under-extrusion (Subextrusión)
+* **Causa:** Obstrucción parcial del *nozzle* o tensión insuficiente en el extrusor.
+* **Solución aplicada:** Realizar purga atómica (*atomic pull*) y verificar que el brazo del extrusor ejerza suficiente presión sobre el filamento.
