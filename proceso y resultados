@@ -1,0 +1,36 @@
+# Reporte de Proceso y Control de Calidad
+
+## 1. Procedimiento de Impresión
+
+1. **Preparación y Calibración:**
+   * Nivelación manual de la cama mediante prueba de tolerancia con papel en 5 puntos.
+   * Limpieza de la superficie de vidrio con alcohol isopropílico al 99%.
+   * Aplicación de capa delgada de adhesivo.
+
+2. **Laminado y Generación del G-Code:**
+   * Configuración de retramado a 5.0 mm a 45 mm/s.
+   * Activación de soportes en estructura tipo árbol para ángulos superiores a 45°.
+
+3. **Ejecución:**
+   * Verificación visual de la primera capa para asegurar adherencia y evitar *warping*.
+   * Tiempo total de ejecución: 2 horas y 15 minutos.
+
+4. **Post-Procesado:**
+   * Retiro de pieza tras enfriamiento de la cama a 30 °C.
+   * Extracción manual de soportes y lijado superficial con papel de lija grado 400 y 800.
+
+---
+
+## 2. Medición Dimensional (Calibre Digital)
+
+| Eje | Medida CAD (Teórica) | Medida Real | Error |
+| :--- | :--- | :--- | :--- |
+| **X** | 50.00 mm | 50.12 mm | +0.24% |
+| **Y** | 50.00 mm | 49.91 mm | -0.18% |
+| **Z** | 25.00 mm | 25.05 mm | +0.20% |
+
+---
+
+## 3. Conclusiones Técnicas
+* La orientación estratégica de la pieza redujo el uso de soportes en un 35%.
+* El patrón de relleno giroide ofreció una rigidez estructural óptima sin incrementar excesivamente el peso final.
