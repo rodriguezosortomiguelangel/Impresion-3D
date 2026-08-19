@@ -1,0 +1,15 @@
+# Guía de Contribución
+
+¡Gracias por tu interés en contribuir a este repositorio de prácticas de fabricación aditiva!
+
+## Cómo sugerir mejoras
+
+1. **Reportar problemas:** Si detectas un error en los parámetros de laminado o una inconsistencia dimensional en el modelo, abre un *Issue* describiendo la falla y el software/versión utilizado.
+2. **Proponer perfiles optimizados:** Si logras reducir el tiempo de impresión o el uso de material conservando la resistencia de la pieza:
+   * Haz un *Fork* de este repositorio.
+   * Crea una rama para tu mejora (`git checkout -b optimizacion-perfil`).
+   * Guarda tus cambios y genera un *Pull Request* especificando los resultados obtenidos con fotos o mediciones.
+
+## Estándares del Proyecto
+* Los modelos 3D deben adjuntarse siempre en formato `.STL` comprimido o limpio.
+* Todo archivo de configuración `.gcode` debe especificar el tipo de filamento y la temperatura utilizada en su encabezado de comentarios.
